@@ -13,8 +13,10 @@ const useFetchData = (url) => {
       try {
         setLoading(true);
         const res = await fetch(url, {
+          method:"GET",
           headers: {
             "Authorization": `Bearer ${token}`,
+            "Conten-Type":"application/json",
           },
         });
 

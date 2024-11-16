@@ -5,6 +5,7 @@ import App from "./App";
 import { AuthContextProvider } from "./context/authContext";
 import { BrowserRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/ReactToastify.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
